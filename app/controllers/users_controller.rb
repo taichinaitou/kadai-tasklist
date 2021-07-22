@@ -1,13 +1,4 @@
 class UsersController < ApplicationController
-  
-
-  def index
-  end
-
-  def show
-    @tasks =Task.all
-  end
-
   def new
     @user = User.new
   end
